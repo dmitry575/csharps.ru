@@ -1,1 +1,1 @@
-"# csharps.ru" 
+# csharps.ru
