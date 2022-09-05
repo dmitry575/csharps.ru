@@ -1,9 +1,7 @@
 ﻿using BenchmarkDotNet.Running;
 using EmptyList;
 
-//var resultNew = BenchmarkRunner.Run<TestListNew>();
-//var resultList = BenchmarkRunner.Run<TestList>();
-var resultEmptyStatic = BenchmarkRunner.Run<TestListEmptyStatic>();
-Console.WriteLine(resultEmptyStatic?.Reports);
-//var resultEmpty = BenchmarkRunner.Run<TestListEmpty>();
-
+var resultNew = BenchmarkRunner.Run<TestListNew>();
+var resultList = BenchmarkRunner.Run<TestList>();
+var resultEmty = BenchmarkRunner.Run<TestListEmptyStatic>();
+var resultEmptyStatic = BenchmarkRunner.Run<TestListEmpty>();
