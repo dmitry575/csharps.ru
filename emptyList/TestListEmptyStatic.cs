@@ -7,7 +7,7 @@ namespace EmptyList
     public class EmptyResults
     {
         public static int[] EmptyArray = new int[0];
-        public static List<int> EmptyList = new List<int>();
+        public static List<int> EmptyList = new();
     }
     public class TestListEmptyStatic
     {
