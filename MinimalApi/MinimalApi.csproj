@@ -12,4 +12,15 @@
     <PackageReference Include="MongoDB.Entities" Version="20.26.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Admin\ArticleModeration" />
+    <Folder Include="Features\Admin\Login" />
+    <Folder Include="Features\Author\Article" />
+    <Folder Include="Features\Author\Login" />
+    <Folder Include="Features\Author\Signup" />
+    <Folder Include="Features\Public\AddArticleComment" />
+    <Folder Include="Features\Public\GetArticle" />
+    <Folder Include="Features\Public\GetArticleList" />
+  </ItemGroup>
+
 </Project>
