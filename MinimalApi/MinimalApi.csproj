@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="FastEndpoints" Version="5.1.0" />
     <PackageReference Include="FastEndpoints.Swagger" Version="5.1.0" />
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
     <PackageReference Include="MongoDB.Entities" Version="20.26.5" />
   </ItemGroup>
 
@@ -17,7 +19,6 @@
     <Folder Include="Features\Admin\Login" />
     <Folder Include="Features\Author\Article" />
     <Folder Include="Features\Author\Login" />
-    <Folder Include="Features\Author\Signup" />
     <Folder Include="Features\Public\AddArticleComment" />
     <Folder Include="Features\Public\GetArticle" />
     <Folder Include="Features\Public\GetArticleList" />

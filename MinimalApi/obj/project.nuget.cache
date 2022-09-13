@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "A7tpXK+jDY6dySgym3fjHa4U0i1H3PlHWa/czSBJeoSxj0EAslqWjMr9rMfo56N5xF3UPX9ipzc7jauQs1j3Jg==",
+  "dgSpecHash": "W27E2a+NcgAs+TPa5u/DKLFMkifkXjBl9MrasoQh/b5/5d4+YhdiFBjfoHotUc+lYECqnMNc13Ufm9AvtYTktQ==",
   "success": true,
   "projectFilePath": "K:\\source\\repos\\csharps.ru\\MinimalApi\\MinimalApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dtarakanov\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\dtarakanov\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\dtarakanov\\.nuget\\packages\\fastendpoints\\5.1.0\\fastendpoints.5.1.0.nupkg.sha512",
     "C:\\Users\\dtarakanov\\.nuget\\packages\\fastendpoints.swagger\\5.1.0\\fastendpoints.swagger.5.1.0.nupkg.sha512",
-    "C:\\Users\\dtarakanov\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\dtarakanov\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\dtarakanov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\dtarakanov\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.3\\microsoft.extensions.apidescription.server.6.0.3.nupkg.sha512",
     "C:\\Users\\dtarakanov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

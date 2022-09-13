@@ -1,4 +1,4 @@
-namespace Author.Signup;
+namespace MinimalApi.Features.Author.Signup;
 
 public class Endpoint : Endpoint<Request, Response, Mapper>
 {
