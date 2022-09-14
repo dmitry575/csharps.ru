@@ -29,7 +29,7 @@ public class Endpoint : Endpoint<Request, Response, Mapper>
 
         await SendAsync(new()
         {
-            Message = "Thank you for signing up as an author!"
-        });
+            Message = $"hello {r.FirstName} {r.LastName}! Your request has been received!"
+        }, cancellation: c);
     }
 }
