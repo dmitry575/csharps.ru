@@ -14,7 +14,8 @@ services:
             context: ./
             dockerfile: Dockerfile
         environment:
-            - ASPNETCORE_ConnectionStrings__mongoDb=mongodb://root:example@mongodb/test?authSource=admin
+            - ASPNETCORE__MongoDb__server=mongodb
+            - ASPNETCORE__MongoDb__login=root
             - ASPNETCORE_Logging__LogLevel__Default=Debug
             - ASPNETCORE_ENVIRONMENT=Development
         depends_on:

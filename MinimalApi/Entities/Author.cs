@@ -1,6 +1,4 @@
-﻿using MongoDB.Entities;
-
-namespace MinimalApi.Entities;
+﻿namespace MinimalApi.Entities;
 
 public class Author : Entity
 {
