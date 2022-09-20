@@ -1,3 +1,4 @@
+namespace MinimalApi.Features.Admin.ArticleModeration.Reject;
 public class Request
 {
     public string ArticleID { get; set; }

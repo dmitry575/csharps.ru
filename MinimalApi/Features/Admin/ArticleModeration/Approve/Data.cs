@@ -2,13 +2,13 @@
 
 namespace MinimalApi.Features.Admin.ArticleModeration.Approve;
 
-public  class Data
+public static class Data
 {
-    internal static Task ApproveArticle(string articleID)
+    internal static Task ApproveArticle(string articleId)
     {
         return DB
             .Update<Article>()
-            .MatchID(articleID)
+            .MatchID(articleId)
             .Modify(a => a.IsApproved, true)
             .ExecuteAsync();
     }

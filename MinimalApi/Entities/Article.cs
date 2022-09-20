@@ -20,7 +20,7 @@ public class Article : Entity
     public class Comment
     {
         [ObjectId]
-        public string Id { get; set; }
+        public string ID { get; set; }
 
         public string NickName { get; set; }
         public string Content { get; set; }

@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <Folder Include="Features\Admin\Login" />
-    <Folder Include="Features\Author\Article" />
     <Folder Include="Features\Author\Login" />
     <Folder Include="Features\Public\AddArticleComment" />
     <Folder Include="Features\Public\GetArticle" />

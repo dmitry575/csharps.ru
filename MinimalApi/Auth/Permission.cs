@@ -2,6 +2,8 @@
 
 public class Permission: Permissions
 {
+    public const string Admin = "99";
+    
     // Правка для админов
     public const string ArticleModerate = "100";
     public const string ArticleDelete = "101";

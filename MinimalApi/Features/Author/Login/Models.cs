@@ -1,6 +1,6 @@
-using MinimalApi.Auth;
+﻿using MinimalApi.Auth;
 
-namespace MinimalApi.Features.Admin.Login;
+namespace MinimalApi.Features.Author.Login;
 
 public class Request
 {
@@ -22,7 +22,7 @@ public class Validator : Validator<Request>
 
 public class Response
 {
-    public string UserName { get; set; }
+    public string FullName { get; set; }
     public IEnumerable<string> UserPermissions { get; set; }
     public JwtToken Token { get; set; } = new();
 }

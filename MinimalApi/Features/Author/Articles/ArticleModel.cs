@@ -1,3 +1,5 @@
+﻿namespace MinimalApi.Features.Author.Articles;
+
 public class ArticleModel
 {
     public string ArticleId { get; set; }
