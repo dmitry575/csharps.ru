@@ -1,0 +1,19 @@
+src
+  core
+    Ozon.Project.Data = модельки, енумки и тд
+    Ozon.Project.Services = бизнес логика, если работа с медиатором, то тут команды и хендлеры
+  presenations
+    Ozon.Project.Api = program.cs и старт находится тут
+  infrastructure
+    Ozon.Project.DataAccess = работа с базой данной, маппинги на Data, файлы Repository и т.д.
+    Ozon.Project.Quartz = работа с шедулером
+    Ozon.Project.Localization = работа с переводами
+  integration
+    Ozon.Project.MegaBank = реализация интеграций с внешними провайдерами
+
+tests
+  core
+    Ozon.Project.ServicesTests = юнит тесты для бизнес логике
+  integrations
+
+
